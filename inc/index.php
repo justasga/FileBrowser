@@ -1,7 +1,7 @@
 <?php
     require_once('inc/autoload.php');
-    $path = "ROOT_PATH";
-    $rel = "DS";
+    $path = ROOT_PATH;
+    $rel = DS;
     $up = null;
 ?>
 
