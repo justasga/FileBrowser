@@ -50,4 +50,9 @@
 
 
 
+    public static function isDirEmpty($dir = null) {
+        return (($files = @scandir($dir)) && count($files) <= 2);
+    }
+
+
     }
