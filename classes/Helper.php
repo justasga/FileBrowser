@@ -1,6 +1,6 @@
 <?php
 
-    class Helepr {
+    class Helper {
 
         public static function fileEXtension($file = null) {
             if (!empty($file)) {
